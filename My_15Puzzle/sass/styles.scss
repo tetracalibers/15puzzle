@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
+
+$column: 4;
+
+.container {
+    display: grid;
+    grid-template-columns: repeat($column, 1fr);
+    grid-template-rows: repeat($column + 1, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    width: 70px * $column;
+    height: 70px * $column;
+}
+
+.tile {
+    font-family: 'Abril Fatface', cursive;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 36px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: #f0f8ff;
+    box-sizing: border-box;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1), 
+                0 1px 6px rgba(0, 0, 0, 0.05), 
+                0 8px 8px rgba(0, 0, 0, 0.1), 
+                0 16px 16px rgba(0, 0, 0, 0.1), 
+                8px 32px 32px rgba(0, 0, 0, 0.15), 
+                8px 64px 64px rgba(0, 0, 0, 0.15);
+}
+
+.counter {
+    font-family: 'Kaisei HarunoUmi', serif;
+    grid-row: $column + 1;
+    grid-column: 1 / -1;
+    justify-self: center;
+    align-self: end;
+    font-size: 1.5em;
+}
+
+//.blank_space {
+//    opacity: 0;
+//}
+
+.moveable {
+    //border: 2px solid black;
+    cursor: pointer;
+}

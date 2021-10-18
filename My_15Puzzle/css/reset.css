@@ -1,0 +1,69 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../.rbenv/versions/3.0.0/lib/ruby/gems/3.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJlc2V0LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7O3dHQUd3RztBQUN4RywwSUFBMEk7QUFDMUk7Ozs7Ozs7Ozs7Ozs7RUFhRSxTQUFTO0VBQ1QsVUFBVTtFQUNWLFNBQVM7RUFDVCxhQUFhO0VBQ2IsZUFBZTtFQUNmLHdCQUF3QjtBQUMxQjs7QUFFQSwySUFBMkk7QUFDM0k7RUFDRSxjQUFjO0FBQ2hCOztBQUVBLDJJQUEySTtBQUMzSTtFQUNFLGdCQUFnQjtBQUNsQjs7QUFFQSwySUFBMkk7QUFDM0k7RUFDRSx5QkFBeUI7RUFDekIsaUJBQWlCO0FBQ25COztBQUVBLDJJQUEySTtBQUMzSTtFQUNFLGdCQUFnQjtFQUNoQixtQkFBbUI7RUFDbkIsc0JBQXNCO0FBQ3hCOztBQUVBLDJJQUEySTtBQUMzSTtFQUNFLFlBQVk7QUFDZDtBQUNBLDRJQUE0STtBQUM1STtFQUNFLFdBQVc7RUFDWCxhQUFhO0FBQ2Y7O0FBRUEsMklBQTJJO0FBQzNJO0VBQ0UsWUFBWTtBQUNkOztBQUVBLDRJQUE0STtBQUM1STtFQUNFLGNBQWM7QUFDaEIiLCJmaWxlIjoicmVzZXQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogV2VsY29tZSB0byBDb21wYXNzLlxuICogSW4gdGhpcyBmaWxlIHlvdSBzaG91bGQgd3JpdGUgeW91ciBtYWluIHN0eWxlcy4gKG9yIGNlbnRyYWxpemUgeW91ciBpbXBvcnRzKVxuICogSW1wb3J0IHRoaXMgZmlsZSB1c2luZyB0aGUgZm9sbG93aW5nIEhUTUwgb3IgZXF1aXZhbGVudDpcbiAqIDxsaW5rIGhyZWY9XCIvc3R5bGVzaGVldHMvc2NyZWVuLmNzc1wiIG1lZGlhPVwic2NyZWVuLCBwcm9qZWN0aW9uXCIgcmVsPVwic3R5bGVzaGVldFwiIHR5cGU9XCJ0ZXh0L2Nzc1wiIC8+ICovXG4vKiBsaW5lIDUsIC4uLy4uLy4uLy4uLy4uLy4uLy5yYmVudi92ZXJzaW9ucy8zLjAuMC9saWIvcnVieS9nZW1zLzMuMC4wL2dlbXMvY29tcGFzcy1jb3JlLTEuMC4zL3N0eWxlc2hlZXRzL2NvbXBhc3MvcmVzZXQvX3V0aWxpdGllcy5zY3NzICovXG5odG1sLCBib2R5LCBkaXYsIHNwYW4sIGFwcGxldCwgb2JqZWN0LCBpZnJhbWUsXG5oMSwgaDIsIGgzLCBoNCwgaDUsIGg2LCBwLCBibG9ja3F1b3RlLCBwcmUsXG5hLCBhYmJyLCBhY3JvbnltLCBhZGRyZXNzLCBiaWcsIGNpdGUsIGNvZGUsXG5kZWwsIGRmbiwgZW0sIGltZywgaW5zLCBrYmQsIHEsIHMsIHNhbXAsXG5zbWFsbCwgc3RyaWtlLCBzdHJvbmcsIHN1Yiwgc3VwLCB0dCwgdmFyLFxuYiwgdSwgaSwgY2VudGVyLFxuZGwsIGR0LCBkZCwgb2wsIHVsLCBsaSxcbmZpZWxkc2V0LCBmb3JtLCBsYWJlbCwgbGVnZW5kLFxudGFibGUsIGNhcHRpb24sIHRib2R5LCB0Zm9vdCwgdGhlYWQsIHRyLCB0aCwgdGQsXG5hcnRpY2xlLCBhc2lkZSwgY2FudmFzLCBkZXRhaWxzLCBlbWJlZCxcbmZpZ3VyZSwgZmlnY2FwdGlvbiwgZm9vdGVyLCBoZWFkZXIsIGhncm91cCxcbm1lbnUsIG5hdiwgb3V0cHV0LCBydWJ5LCBzZWN0aW9uLCBzdW1tYXJ5LFxudGltZSwgbWFyaywgYXVkaW8sIHZpZGVvIHtcbiAgbWFyZ2luOiAwO1xuICBwYWRkaW5nOiAwO1xuICBib3JkZXI6IDA7XG4gIGZvbnQ6IGluaGVyaXQ7XG4gIGZvbnQtc2l6ZTogMTAwJTtcbiAgdmVydGljYWwtYWxpZ246IGJhc2VsaW5lO1xufVxuXG4vKiBsaW5lIDIyLCAuLi8uLi8uLi8uLi8uLi8uLi8ucmJlbnYvdmVyc2lvbnMvMy4wLjAvbGliL3J1YnkvZ2Vtcy8zLjAuMC9nZW1zL2NvbXBhc3MtY29yZS0xLjAuMy9zdHlsZXNoZWV0cy9jb21wYXNzL3Jlc2V0L191dGlsaXRpZXMuc2NzcyAqL1xuaHRtbCB7XG4gIGxpbmUtaGVpZ2h0OiAxO1xufVxuXG4vKiBsaW5lIDI0LCAuLi8uLi8uLi8uLi8uLi8uLi8ucmJlbnYvdmVyc2lvbnMvMy4wLjAvbGliL3J1YnkvZ2Vtcy8zLjAuMC9nZW1zL2NvbXBhc3MtY29yZS0xLjAuMy9zdHlsZXNoZWV0cy9jb21wYXNzL3Jlc2V0L191dGlsaXRpZXMuc2NzcyAqL1xub2wsIHVsIHtcbiAgbGlzdC1zdHlsZTogbm9uZTtcbn1cblxuLyogbGluZSAyNiwgLi4vLi4vLi4vLi4vLi4vLi4vLnJiZW52L3ZlcnNpb25zLzMuMC4wL2xpYi9ydWJ5L2dlbXMvMy4wLjAvZ2Vtcy9jb21wYXNzLWNvcmUtMS4wLjMvc3R5bGVzaGVldHMvY29tcGFzcy9yZXNldC9fdXRpbGl0aWVzLnNjc3MgKi9cbnRhYmxlIHtcbiAgYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTtcbiAgYm9yZGVyLXNwYWNpbmc6IDA7XG59XG5cbi8qIGxpbmUgMjgsIC4uLy4uLy4uLy4uLy4uLy4uLy5yYmVudi92ZXJzaW9ucy8zLjAuMC9saWIvcnVieS9nZW1zLzMuMC4wL2dlbXMvY29tcGFzcy1jb3JlLTEuMC4zL3N0eWxlc2hlZXRzL2NvbXBhc3MvcmVzZXQvX3V0aWxpdGllcy5zY3NzICovXG5jYXB0aW9uLCB0aCwgdGQge1xuICB0ZXh0LWFsaWduOiBsZWZ0O1xuICBmb250LXdlaWdodDogbm9ybWFsO1xuICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlO1xufVxuXG4vKiBsaW5lIDMwLCAuLi8uLi8uLi8uLi8uLi8uLi8ucmJlbnYvdmVyc2lvbnMvMy4wLjAvbGliL3J1YnkvZ2Vtcy8zLjAuMC9nZW1zL2NvbXBhc3MtY29yZS0xLjAuMy9zdHlsZXNoZWV0cy9jb21wYXNzL3Jlc2V0L191dGlsaXRpZXMuc2NzcyAqL1xucSwgYmxvY2txdW90ZSB7XG4gIHF1b3Rlczogbm9uZTtcbn1cbi8qIGxpbmUgMTAzLCAuLi8uLi8uLi8uLi8uLi8uLi8ucmJlbnYvdmVyc2lvbnMvMy4wLjAvbGliL3J1YnkvZ2Vtcy8zLjAuMC9nZW1zL2NvbXBhc3MtY29yZS0xLjAuMy9zdHlsZXNoZWV0cy9jb21wYXNzL3Jlc2V0L191dGlsaXRpZXMuc2NzcyAqL1xucTpiZWZvcmUsIHE6YWZ0ZXIsIGJsb2NrcXVvdGU6YmVmb3JlLCBibG9ja3F1b3RlOmFmdGVyIHtcbiAgY29udGVudDogXCJcIjtcbiAgY29udGVudDogbm9uZTtcbn1cblxuLyogbGluZSAzMiwgLi4vLi4vLi4vLi4vLi4vLi4vLnJiZW52L3ZlcnNpb25zLzMuMC4wL2xpYi9ydWJ5L2dlbXMvMy4wLjAvZ2Vtcy9jb21wYXNzLWNvcmUtMS4wLjMvc3R5bGVzaGVldHMvY29tcGFzcy9yZXNldC9fdXRpbGl0aWVzLnNjc3MgKi9cbmEgaW1nIHtcbiAgYm9yZGVyOiBub25lO1xufVxuXG4vKiBsaW5lIDExNiwgLi4vLi4vLi4vLi4vLi4vLi4vLnJiZW52L3ZlcnNpb25zLzMuMC4wL2xpYi9ydWJ5L2dlbXMvMy4wLjAvZ2Vtcy9jb21wYXNzLWNvcmUtMS4wLjMvc3R5bGVzaGVldHMvY29tcGFzcy9yZXNldC9fdXRpbGl0aWVzLnNjc3MgKi9cbmFydGljbGUsIGFzaWRlLCBkZXRhaWxzLCBmaWdjYXB0aW9uLCBmaWd1cmUsIGZvb3RlciwgaGVhZGVyLCBoZ3JvdXAsIG1haW4sIG1lbnUsIG5hdiwgc2VjdGlvbiwgc3VtbWFyeSB7XG4gIGRpc3BsYXk6IGJsb2NrO1xufVxuIl19 */
